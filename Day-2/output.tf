@@ -1,3 +1,4 @@
+# Day 2: Instance outputs
 output "az" {
   value = aws_instance.example.availability_zone
 }
