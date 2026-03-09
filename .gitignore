@@ -1,3 +1,4 @@
+# Ignore Terraform local state and sensitive files
 .terraform/
 *.tfstate
 *.tfstate.backup
