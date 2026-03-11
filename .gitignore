@@ -1,5 +1,16 @@
 # Ignore Terraform local state and sensitive files
-.terraform/
+# Terraform state files
 *.tfstate
 *.tfstate.backup
+.terraform/
 .terraform.lock.hcl
+
+# Variable files with sensitive info
+*.tfvars
+
+# Ignore editor files
+*.swp
+*.idea/
+*.vscode/
+
+
